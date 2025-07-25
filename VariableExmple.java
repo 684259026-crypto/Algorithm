@@ -1,5 +1,4 @@
-import java.util.Scanner;
-public class A {
+public class VariableExmple {
   public static void main(String args[]) {
      char clothingSize='s';
      int websiteVisitors = 0;
