@@ -4,15 +4,15 @@ import java.util.Scanner;
             Scanner scanner = new Scanner(System.in);
 
             System.out.print("Enter Hihg1: ");
-                int A = scanner.nextInt();
+                double A = scanner.nextDouble();
 
             System.out.print("Enter Hihg2: ");
-                int b = scanner.nextInt();
+                double b = scanner.nextDouble();
 
             System.out.print("Enter Weight: ");
-                int c = scanner.nextInt();
+                double c = scanner.nextDouble();
 
-                int Bmi = c /( A * b );
+                double Bmi = c /( A * b );
 
             System.out.println("Bmi = "+Bmi);
         }
