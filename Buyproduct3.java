@@ -7,8 +7,10 @@ public class Buyproduct3 {
 
         System.out.print("Enter product 1 name: ");
         String name1 = scanner.nextLine();
+
         System.out.print("Enter product 1 price: ");
         double price1 = scanner.nextDouble();
+        
         System.out.print("Enter quantity for product 1: ");
         int qty1 = scanner.nextInt();
         scanner.nextLine(); 
