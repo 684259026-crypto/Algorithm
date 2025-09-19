@@ -18,7 +18,7 @@ public class Bmr {
 
         double bmr;
 
-        if (gender.equalsIgnoreCase("M")) {
+        if (gender.equals("M")) {
             bmr = 66 + (13.7 * weight) + (5 * height) - (6.8 * age);
             System.out.println("Your BMR (Male) is: " + bmr + " kcal/day");
         } else if (gender.equalsIgnoreCase("F")) {
